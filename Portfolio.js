@@ -1,5 +1,14 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+const Card = ({ children }) => (
+  <div style={{ border: '1px solid #444', padding: '1rem', borderRadius: '12px', background: '#1a1a1a' }}>
+    {children}
+  </div>
+);
+const CardContent = ({ children }) => <div>{children}</div>;
+const Button = ({ children }) => (
+  <button style={{ background: 'white', color: 'black', padding: '0.5rem 1rem', borderRadius: '8px', border: 'none' }}>
+    {children}
+  </button>
+);
 import { Mail, Github, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 
