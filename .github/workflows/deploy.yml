@@ -16,6 +16,8 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run deploy
+      - run: cp public/resume.pdf out/
+      - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
