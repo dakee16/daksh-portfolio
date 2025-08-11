@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:#fafafa;--fg:#0a0a0a}body{background:var(--bg);color:var(--fg)}
