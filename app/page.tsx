@@ -194,8 +194,7 @@ export default function Page() {
             <a href="#contact" className="inline-flex items-center gap-2 rounded-xl border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-100 transition">
               Contact me <Mail size={16} />
             </a>
-            <a href="/Daksh_Mainee_Resume.pdf" className="inline-flex items-center gap-2 rounded-xl border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-100 transition">
-              Download résumé <Download size={16} />
+            <a href="resume.pdf" className="inline-flex items-center gap-2 rounded-xl border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-100 transition">
             </a>
           </div>
           <div className="flex gap-4 text-sm text-neutral-600">
