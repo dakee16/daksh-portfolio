@@ -56,7 +56,7 @@ const experiences = [
     role: "Web Developer Intern",
     org: "Accenture",
     location: "(Remote/India)",
-    dates: "Jun 1 – Jul 31, 2024",
+    dates: "Jun 1 – Jul 31, 2025",
     bullets: [
       "Learned and applied MERN stack fundamentals on a team project.",
       "Helped build a Microsoft Teams–style app replica: channels, chat threads, and basic video-call UI.",
@@ -99,7 +99,7 @@ const education = [
   {
     school: "Georgia Tech",
     detail: "Engineering and Leadership (Summer Program)",
-    dates: "Jun 2024 – Jun 2024",
+    dates: "Jun 2023 – Jul 2023",
     bullets: [
       "Built line-following robot and motorboat; teamwork on structural challenges.",
       "Sharpened leadership, collaboration and project planning skills.",
@@ -108,7 +108,7 @@ const education = [
   {
     school: "GD Goenka",
     detail: "High School Diploma",
-    dates: "Apr 2023 – Apr 2023",
+    dates: "Apr 2019 – Apr 2023",
     bullets: [
       "Head Boy and Coding Club lead; represented school in coding competitions.",
       "Soccer and golf team member; MUN, debates; strong teamwork values.",
